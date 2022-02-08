@@ -2,7 +2,7 @@
 Allows you to customize the input interface of the moodle system.
 
 <h2>Usage of Theme</h2>
-Copy the entire xxxx folder under the theme/boost/style/ folder.
+Copy the entire arayuz folder under the theme/boost/style/ folder.
 <br>
 You can use any text editor to edit the loginform.mustache file in the html/lib/templates folder.
 <br>
