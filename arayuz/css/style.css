@@ -1,0 +1,540 @@
+/*
+	https://github.com/SelmanGedik
+	fl-3.0 Lisansına Tabidir.
+	Subject to afl-3.0 License.
+
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #535353
+}
+
+.img-fluid {
+	max-width: 100%!important;
+	height: auto
+}
+
+.form-control:focus {
+	box-shadow: none
+}
+
+.giris-uzem .login-inner-form {
+	color: #ccc;
+	position: relative
+}
+
+.giris-uzem .bg-color-13 {
+	min-height: 100vh;
+	position: relative;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 15px;
+	background: #fbf1f1
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.giris-uzem h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Jost, sans-serif
+}
+
+.giris-uzem .form-section {
+	max-width: 550px;
+	margin: 0 auto;
+	width: 100%
+}
+
+.giris-uzem .form-box {
+	width: 100%;
+	text-align: center
+}
+
+.giris-uzem .login-inner-form .form-group {
+	margin-bottom: 25px
+}
+
+.giris-uzem .login-inner-form .form-box {
+	float: left;
+	width: 100%;
+	position: relative
+}
+
+.giris-uzem .login-inner-form .form-control {
+	font-size: 16px;
+	outline: 0;
+	color: #616161;
+	border-radius: 3px;
+	font-weight: 500;
+	border: 1px solid transparent;
+	background: #fbf1f1
+}
+
+.giris-uzem .login-inner-form img {
+	margin-bottom: 5px;
+	height: 40px
+}
+
+.giris-uzem .login-inner-form .form-box input {
+	float: left;
+	width: 100%;
+	padding: 14.5px 50px 14.5px 25px;
+	border-radius: 3px
+}
+
+.giris-uzem .login-inner-form .form-box i {
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	font-size: 20px;
+	color: #616161
+}
+
+.giris-uzem .login-inner-form label {
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 5px
+}
+
+.giris-uzem .login-inner-form .forgot {
+	margin: 0;
+	line-height: 45px;
+	color: #535353;
+	font-size: 15px;
+	float: right
+}
+
+.giris-uzem .bg-img {
+	background: rgba(0, 0, 0, .04) url(../img/img-11.jpg) top left repeat;
+	background-size: cover;
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+	z-index: 999;
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px
+}
+
+.giris-uzem .bg-img:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgb(36 10 99 / 74%)
+}
+
+.giris-uzem .info {
+	max-width: 480px;
+	margin: 0 auto;
+	padding: 50px 40px;
+	border: solid 5px #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	-webkit-transition: all .5s;
+	transition: all .9s;
+	position: relative;
+	border-radius: 4px;
+	z-index: 1
+}
+
+.giris-uzem .info h1 {
+font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.giris-uzem .info p {
+	margin-bottom: 0;
+	color: #fff;
+	line-height: 28px;
+	opacity: .9;
+	-webkit-transition: all .5s;
+	transition: all .5s
+}
+
+.giris-uzem .info::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0;
+	border-radius: 0;
+	-webkit-transition: all .5s;
+	transition: all .9s;
+	z-index: -1
+}
+
+.giris-uzem:hover .info::before {
+	height: 100%
+}
+
+.giris-uzem .info::before {
+	background: #fff
+}
+
+.giris-uzem:hover .info p {
+	color: #535353
+}
+
+.giris-uzem:hover .info h1 {
+	color: #f78c30
+}
+
+.giris-uzem .login-inner-form p {
+	margin: 0;
+	color: #616161
+}
+
+.giris-uzem .login-inner-form p a {
+	color: #616161
+}
+
+.giris-uzem .login-inner-form button:focus {
+	outline: 0;
+	outline: 0 auto -webkit-focus-ring-color
+}
+
+.giris-uzem .form-section a {
+	text-decoration: none
+}
+
+.giris-uzem .logo img {
+	height: 75px;
+	margin-bottom: 20px
+}
+
+.giris-uzem .nav-pills li {
+	display: inline-block
+}
+
+.giris-uzem .login-inner-form .form-check {
+	float: left;
+	margin-bottom: 0
+}
+
+.giris-uzem .login-inner-form .form-check a {
+	color: #d6d6d6;
+	float: right
+}
+
+.giris-uzem .login-inner-form .form-check-input {
+	position: absolute;
+	margin-left: 0
+}
+
+.giris-uzem .login-inner-form .form-check-label {
+	padding-left: 5px;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #616161
+}
+
+.giris-uzem .btn-section {
+	top: 20px;
+	position: absolute;
+	right: 20px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+	border-radius: 50px
+}
+
+.giris-uzem .btn-section .link-btn {
+	font-size: 14px;
+	float: left;
+	background: 0 0;
+	letter-spacing: .5px;
+	text-align: left;
+	font-weight: 400;
+	border-radius: 0;
+	color: #f78c30;
+	text-decoration: none;
+	text-decoration: blink;
+	font-family: Jost, sans-serif;
+	text-transform: uppercase
+}
+
+.giris-uzem .btn-section .btn-2 {
+	line-height: 40px;
+	text-align: center;
+	border-radius: 0 50px 50px 0;
+	width: 110px
+}
+
+.giris-uzem .btn-section .active-bg {
+	background: #f78c30;
+	color: #fff
+}
+
+.giris-uzem .btn-section .default-bg {
+	background: #fff
+}
+
+.giris-uzem .btn-section .btn-1 {
+	line-height: 40px;
+	text-align: center;
+	width: 110px;
+	border-radius: 50px 0 0 50px
+}
+
+.giris-uzem .btn-section {
+	margin: 0 auto 30px
+}
+
+.giris-uzem .login-inner-form .checkbox a {
+	font-size: 16px;
+	color: #616161;
+	float: right;
+	margin-left: 3px
+}
+
+.giris-uzem .form-section {
+	text-align: center;
+	padding: 60px 60px;
+	background: #fff;
+	border-radius: 5px
+}
+
+.giris-uzem .form-section h3 {
+	font-size: 25px;
+	margin-bottom: 35px;
+	font-weight: 400;
+	color: #313131
+}
+
+.giris-uzem .btn-theme {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-appearance: none;
+	border: none;
+	outline: 0!important;
+	color: #fff;
+	text-transform: capitalize;
+	transition: all .3s linear;
+	z-index: 1;
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 400;
+	width: 100%;
+	font-family: Jost, sans-serif;
+	border-radius: 50px
+}
+
+.giris-uzem .form-section .form-check-input {
+	width: 20px;
+	height: 20px;
+	margin-top: 0;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	position: absolute;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-print-color-adjust: exact;
+	color-adjust: exact;
+	border: 1px solid #fbf1f1;
+	border-radius: 0;
+	background-color: #fbf1f1;
+	margin-left: -24px
+}
+
+.giris-uzem .form-check-input:checked {
+	background-color: #f78c30;
+	border-color: #f78c30
+}
+
+.giris-uzem .btn-theme i::before {
+	position: relative;
+	font-size: 18px;
+	top: 3px;
+	padding-left: 5px
+}
+
+.giris-uzem .btn-theme:hover {
+	color: #fff
+}
+
+.giris-uzem .btn-theme:hover:after {
+	transform: perspective(200px) scaleX(1.05) rotateX(0) translateZ(0);
+	transition: transform .4s linear, transform .4s linear
+}
+
+.giris-uzem .btn-theme:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	content: "";
+	border-radius: 7px;
+	transform: perspective(200px) scaleX(.1) rotateX(90deg) translateZ(-10px);
+	transform-origin: bottom center;
+	transition: transform .4s linear, transform .4s linear;
+	z-index: -1
+}
+
+.giris-uzem .btn-lg {
+	padding: 0 50px;
+	line-height: 55px
+}
+
+.giris-uzem .btn {
+	box-shadow: none!important
+}
+
+.giris-uzem .btn-md {
+	padding: 0 50px;
+	line-height: 45px
+}
+
+.giris-uzem .btn-primary {
+	background: #f78c30
+}
+
+.giris-uzem .btn-primary:after {
+	background: #e0781f
+}
+
+.giris-uzem .btn-success:after {
+	background: #146c43
+}
+
+.giris-uzem .btn-info:after {
+	background: #31d2f2
+}
+
+.giris-uzem .btn-danger:after {
+	background: #b02a37
+}
+
+.giris-uzem .btn-dark:after {
+	background: #1a1e21
+}
+
+.giris-uzem .btn-warning:after {
+	background: #ffcd39
+}
+
+.giris-uzem .btn-light:after {
+	background: #f9fafb
+}
+
+.giris-uzem .full-none {
+	display: none;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #616161
+}
+
+.giris-uzem .full-none a {
+	color: #616161
+}
+
+.giris-uzem .social-list {
+	margin-top: 35px
+}
+
+.giris-uzem .social-list a {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	margin: 0 1px 2px;
+	border-radius: 50%
+}
+
+.giris-uzem .facebook-bg {
+	background: #4867aa
+}
+
+.giris-uzem .facebook-bg:hover {
+	background: #3b589e;
+	color: #fff
+}
+
+.giris-uzem .twitter-bg {
+	background: #3cf
+}
+
+.giris-uzem .twitter-bg:hover {
+	background: #56d7fe
+}
+
+.giris-uzem .google-bg {
+	background: #db4437
+}
+
+.giris-uzem .google-bg:hover {
+	background: #dc4e41
+}
+
+.giris-uzem .linkedin-bg {
+	background: #2392e0;
+	color: #fff
+}
+
+.giris-uzem .linkedin-bg:hover {
+	background: #1c82ca;
+	color: #fff
+}
+
+.giris-uzem .pinterest-bg {
+	background: #bd081c;
+	color: #fff
+}
+
+.giris-uzem .pinterest-bg:hover {
+	background: #a30618;
+	color: #fff
+}
+
+@media (max-width:992px) {
+	.giris-uzem .none-992 {
+		display: none
+	}
+}
+
+@media (max-width:768px) {
+	.giris-uzem .form-section {
+		text-align: center;
+		padding: 60px 30px
+	}
+	.giris-uzem .btn-section {
+		display: none
+	}
+	.giris-uzem .full-none {
+		display: initial
+	}
+	.giris-uzem .social-list {
+		margin: 30px 0
+	}
+}
